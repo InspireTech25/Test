@@ -1,0 +1,34 @@
+npm install react-bootstrap-table2-paginator --save
+npm install react-bootstrap-table-next -save
+npm install @pnp/sp
+npm install @microsoft/teams-js --save
+npm install @fluentui/react
+npm i @pnp/sp
+
+npm cmmd to build the solution:
+
+1. gulp clean
+2. gulp build
+3. gulp serve
+4. gulp bundle --ship
+5. gulp package-solution --ship
+
+Import Commands:
+1. import { MSGraphClient } from '@microsoft/sp-http';  
+2. import * as MicrosoftGraph from '@microsoft/microsoft-graph-types';
+3. import {
+  DocumentCard,
+  DocumentCardPreview,
+  DocumentCardTitle,
+  DocumentCardActivity,
+  IDocumentCardPreviewProps
+} from 'office-ui-fabric-react/lib/DocumentCard';
+
+5. import {
+  SPHttpClient,
+  SPHttpClientResponse
+} from '@microsoft/sp-http';
+
+6.import { TaxonomyPicker, IPickerTerms } from "@pnp/spfx-controls-react/lib/TaxonomyPicker";
+7.import { PeoplePicker } from "@pnp/spfx-controls-react/lib/PeoplePicker";
+
